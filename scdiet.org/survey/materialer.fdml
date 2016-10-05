@@ -1,0 +1,78 @@
+<RESPONSE>"/djembe/scd/survey/svar.html"</RESPONSE>
+
+<SENDMAIL "194.255.28.12" "odd@stovner.vgs.no" "odd@stovner.vgs.no">SCD survey form</SENDMAIL>
+Submission - received <DATE> at <TIME>:
+
+<REPLACE navn>
+<REPLACE addr1>
+<REPLACE addr2>
+<REPLACE bynavn>
+<REPLACE land>
+Tel:  <REPLACE tlf>
+E-mail:  <REPLACE email>
+= = = = = = = = = = = =
+
+1. Illness(es):  <REPLACE illnes>
+
+2. If Crohn's, in which part of bowel:  <REPLACE bowelp>
+
+3. Year born and gender:  <REPLACE agesex>
+
+4. Year the intestinal disease started:  <REPLACE years>
+
+5. Date started on SCD:  <REPLACE scddat>
+
+6. Date stopped being on SCD:  <REPLACE scdsto>
+
+7. After being on the diet for one month my situation was:
+<IF vare01="YES" THEN "worse" ELSE ""> <IF vare02="YES" THEN "the same" ELSE ""> <IF vare03="YES" THEN "better" ELSE "">, 
+
+8. I started the diet: 
+<IF ente01="YES" THEN "with fanatical 100% adherance" ELSE ""> <IF ente02="YES" THEN "by gradually introducing one allowable food at a time" ELSE ""> <IF ente03="YES" THEN "by following the limited introductory diet as recommended in the book" ELSE ""> 
+
+9. Number of surgeries before entering SCD and which kind:   <REPLACE surgbe>
+
+10. Number of surgeries after entering SCD and which kind:   <REPLACE surgaf>
+
+11. Reduced or eliminated any types of medicine during SCD?
+<REPLACE med>
+
+12. Symptoms have changed: it is 
+<IF sympto01="YES" THEN "much worse" ELSE ""> <IF sympto02="YES" THEN "slightly worse" ELSE ""> <IF sympto03="YES" THEN "the same" ELSE ""> <IF sympto04="YES" THEN "slightly better" ELSE ""> <IF sympto05="YES" THEN "much better" ELSE ""> 
+
+13. Items that tests have shown I am allergic or intolerant to:
+<REPLACE allerg>
+
+14. Anything else that has improved my health during the SCD:
+<REPLACE otherc>
+
+15. How symptom-free I am at this time:
+<REPLACE sympfr>
+
+16. Symptoms that has really improved during the SCD:
+<REPLACE sympim>
+
+17. Symptoms that has not improved/gotten worse during SCD:
+<REPLACE sympno>
+
+18. Number of serious flare-ups I've had during the SCD:
+<REPLACE flareu>
+
+19. If you stopped being on the SCD: what was the reason?
+<REPLACE reasstop>
+
+20. If you stopped SCD: what was you health status when you stopped?
+<REPLACE healstop>
+
+21. What is your health status right now?
+<REPLACE healnow>
+
+
+             
+
+ 
+=======================
+Sent via the server at:
+Inform, DK-2200 Kbh. N, Denmark
+Tel (+45) 31 35 38 80
+Write to Mik at: aid@dr.dk if there are problems

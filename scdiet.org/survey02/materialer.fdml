@@ -1,0 +1,28 @@
+<RESPONSE>"/djembe/scd/survey02/svar.html"</RESPONSE>
+
+<SENDMAIL "194.255.28.12" "msimons@rtd.com" "mik@inform-bbs.dk">SCD survey form</SENDMAIL>
+Submission - received <DATE> at <TIME> from:
+<REPLACE navn>
+<REPLACE addr1>
+<REPLACE addr2>
+<REPLACE bynavn>
+<REPLACE land>
+Tel:  <REPLACE tlf>
+E-mail:  <REPLACE email>
+= = = = = = = = = = = =
+
+1. How many times have you visited this website?:  <REPLACE visits>
+
+2. If more than once, which part of the website do you visit most frequently?:  <REPLACE part>
+
+3. Which of the following three options would you recommend us to spend most time with::
+<IF vare01="YES" THEN "Content" ELSE ""> <IF vare02="YES" THEN "Navigation" ELSE ""> <IF vare03="YES" THEN "Layout and design" ELSE "">, 
+
+4. Do you have any advice or suggestions to how to improve the site?:  <REPLACE suggest>
+
+
+
+
+
+=======================
+Sent via the server at Inform, DK-2200 Kbh. N, Denmark

@@ -1,0 +1,26 @@
+<RESPONSE>"/djembe/scd/guestbook/GuestBook.html" </RESPONSE> 
+
+<INSERTFILE "<!--GUESTLIST-->"> "/djembe/scd/guestbook/GuestBook.html"</INSERTFILE> 
+
+<P> 
+
+<IF HomePageURL # "" THEN "<A HREF=""<REPLACE HomePageURL>"">"><B><REPLACE
+UserName></B><IF HomePageURL # "" THEN "</A>"> 
+
+<IF EMail # "" THEN "(<REPLACE EMail>)"> - <REPLACE Title><IF Title # "" THEN ", "><REPLACE
+Company><P> 
+
+<IF Desc1 # "" THEN " - <REPLACE Desc1>"> <BR>
+<DL> 
+
+<DD><IF MainURL # "" THEN "<A HREF=""<REPLACE MainURL>"">"><B><REPLACE
+SiteName></B><IF MainURL # "" THEN "</A>"> 
+
+
+<IF Desc2 # "" THEN " - <REPLACE Desc2>"> <BR>
+
+</DL> 
+
+
+<P ALIGN=CENTER>
+<IMG SRC="../streg.gif" WIDTH="94" HEIGHT="14" BORDER="0" ALIGN="BOTTOM" NATURALSIZEFLAG="3"></P>
