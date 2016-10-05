@@ -20,15 +20,18 @@ Please see the versions tab for:
     - For this version, do a search/replace over all of the files, changing:
       - **From**: ```||ARCHIVE_SUBDIRECTORY||```
       - **To**: your folder name.  e.g. ```archive``` (don't include slashes)
-    - Full example:
-      1. Replace ```||ARCHIVE_SUBDIRECTORY||``` with ```scdarchive```
-      1. Save the files.
-      1. In the repository folder, run a python server.
-      ```cd scdiet.org
-      python -m SimpleHTTPServer 8000
-      ```
-      - Go to http://0.0.0.0:8000/scdarchive
-        1. The "archive" version where the files may placed at the **root directory** of a web server.
+
+Example of running the "archive subdirectory" version
+
+  - Replace ```||ARCHIVE_SUBDIRECTORY||``` with ```scdarchive```
+  - Save the files.
+  - In the repository folder, run a python server
+```
+cd scdiet.org
+python -m SimpleHTTPServer 8000
+```
+
+- Go to http://0.0.0.0:8000/scdarchive
 
 
 ---
