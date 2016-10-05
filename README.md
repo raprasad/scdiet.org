@@ -27,7 +27,7 @@ Example of running the "archive subdirectory" version
   - Save the files.
   - In the repository folder, run a python server
 ```
-cd scdiet.org
+cd scdarchive
 python -m SimpleHTTPServer 8000
 ```
 
