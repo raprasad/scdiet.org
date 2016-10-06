@@ -15,28 +15,28 @@ This archive contains the static HTML and images from the site.
 
 Please see the versions tab for:
 
-  1. The original version where pages were hardcoded with links to "http://www.scdiet.org"
-  1. The "archive subdirectory" where the files may be placed in the subfolder of an existing web server.
-    - For this version, do a search/replace over all of the files, changing:
-      - **From**: ```||ARCHIVE_SUBDIRECTORY||```
-      - **To**: your folder name.  e.g. ```archive``` (don't include slashes)
+### Original version
 
-Example of running the "archive subdirectory" version
+In the original version pages are hardcoded with links to "http://www.scdiet.org"
 
-  - Replace ```||ARCHIVE_SUBDIRECTORY||``` with ```scdarchive```
-  - Save the files.
-  - In the repository folder, run a python server
-    - Open a Terminal
-```
-# cd into this project's main directory
-cd ~/scdiet.org
+In this version the site only works when running from the www.scdiet.org domain.
 
-# start a python server
-python -m SimpleHTTPServer 8000
-```
 
-- Go to http://0.0.0.0:8000/scdarchive
+### "scdarchive" version
 
+For this version, all the links to ```http://www.scdiet.org``` have been changed to ```/scdarchive```
+
+This allows the "scdarchive" folder and files to be copied onto an existing web server.
+
+#### Running the "scdarchive" version locally
+
+  - Open a Terminal window
+  - cd into this project's main directory
+    - ```cd ~/scdiet.org```
+    - This directory contains the ```scdarchive``` folder
+  - start a python server  
+    - ```python -m SimpleHTTPServer 8000```
+  - Go to http://0.0.0.0:8000/scdarchive
 
 ---
 
@@ -46,11 +46,12 @@ python -m SimpleHTTPServer 8000
 
 Here is the replace sequence run to go from the original version to one which may be served from the subdirectory of a webserver.
 
- - REPLACE ```href="http://www.scdiet.org/``` WITH ```href="/||ARCHIVE_SUBDIRECTORY||/```
- - REPLACE ```href="http://www.scdiet.org"``` WITH ```href="/||ARCHIVE_SUBDIRECTORY||"```
- - REPLACE ```src="http://www.scdiet.org/``` WITH ```src="/||ARCHIVE_SUBDIRECTORY||/```
- - REPLACE ```value="http://www.scdiet.org/``` WITH ```value="/||ARCHIVE_SUBDIRECTORY||/```
- - REPLACE ```xml:base="http://www.scdiet.org/news``` WITH ```xml:base="/||ARCHIVE_SUBDIRECTORY||/news```
- - REPLACE ```URL=http://www.scdiet.org"``` WITH ```URL=/||ARCHIVE_SUBDIRECTORY||"```
- - REPLACE ```HREF="http://www.scdiet.orgdk``` WITH ```href="/||ARCHIVE_SUBDIRECTORY||/dk```
- - REPLACE ```open ("http://www.scdiet.org/``` WITH ```open ("/||ARCHIVE_SUBDIRECTORY||/```
+ - REPLACE ```href="http://www.scdiet.org/``` WITH ```href="/scdarchive/```
+ - REPLACE ```href="http://www.scdiet.org"``` WITH ```href="/scdarchive"```
+ - REPLACE ```src="http://www.scdiet.org/``` WITH ```src="/scdarchive/```
+ - REPLACE ```value="http://www.scdiet.org/``` WITH ```value="/scdarchive/```
+ - REPLACE ```xml:base="http://www.scdiet.org/news``` WITH ```xml:base="/scdarchive/news```
+ - REPLACE ```URL=http://www.scdiet.org"``` WITH ```URL=/scdarchive"```
+ - REPLACE ```HREF="http://www.scdiet.orgdk``` WITH ```href="/scdarchive/dk```
+   - This was a bad link in the original version
+ - REPLACE ```open ("http://www.scdiet.org/``` WITH ```open ("/scdarchive/```
