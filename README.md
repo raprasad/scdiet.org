@@ -6,10 +6,7 @@ Created to help people using Elaine Gottschall's version of the Specific Carbohy
 
 As described in the site's footer:
 
-```
-The SCD Web Library contains approximately 8.1 megabytes of listserve archives and information about the SCD, app. 350 webpages equal to approximately 3,800 typed
-A4 papersheets.
-```
+> The SCD Web Library contains approximately 8.1 megabytes of listserve archives and information about the SCD, app. 350 webpages equal to approximately 3,800 typed A4 papersheets.
 
 This archive contains the static HTML and images from the site.
 
@@ -37,6 +34,12 @@ This allows the "scdarchive" folder and files to be copied onto an existing web 
   - start a python server  
     - ```python -m SimpleHTTPServer 8000```
   - Go to http://0.0.0.0:8000/scdarchive
+
+---
+
+The homepage of the site:
+
+![SCDiet.org homepage](/screenshots/scdiet_org_homepage.png)
 
 ---
 
