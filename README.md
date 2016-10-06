@@ -4,7 +4,7 @@
 
 Archive of the original SCDiet.org site created by [Mik Aidt](https://twitter.com/mikaidt) and [Mike Simons](http://www.glassbird.com/)
 
-Created to help people using Elaine Gottschall's version of the Specific Carbohydrate Diet (SCD), from 1996 through September 2016, this site lived at ```www.scdiet.org```.
+From 1996 through September 2016, this site lived at ```www.scdiet.org```.  It was created to help people use the Specific Carbohydrate Diet (SCD) as described in Elaine Gottschall's book Breaking the Vicious Cycle.
 
 As described in the site's footer:
 
@@ -14,9 +14,9 @@ This archive contains the static HTML and images from the site.
 
 Please see the versions tab for:
 
-### Original version
+### [Original version](https://github.com/raprasad/scdiet.org/releases/tag/1.0)
 
-In the original version pages are hardcoded with links to "http://www.scdiet.org"
+In the [original version](https://github.com/raprasad/scdiet.org/releases/tag/1.0) pages are hardcoded with links to "http://www.scdiet.org"
 
 In this version the site only works when running from the www.scdiet.org domain.
 
