@@ -26,8 +26,12 @@ Example of running the "archive subdirectory" version
   - Replace ```||ARCHIVE_SUBDIRECTORY||``` with ```scdarchive```
   - Save the files.
   - In the repository folder, run a python server
+    - Open a Terminal
 ```
-cd scdarchive
+# cd into this project's main directory
+cd ~/scdiet.org
+
+# start a python server
 python -m SimpleHTTPServer 8000
 ```
 
