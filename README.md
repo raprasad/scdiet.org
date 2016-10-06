@@ -16,16 +16,15 @@ Please see the versions tab for:
 
 ## Original Version https://github.com/raprasad/scdiet.org/releases/tag/1.0
 
-In the [original version](https://github.com/raprasad/scdiet.org/releases/tag/1.0) pages are hardcoded with links to "http://www.scdiet.org"
+  - In the [original version](https://github.com/raprasad/scdiet.org/releases/tag/1.0) pages are hardcoded with links to "http://www.scdiet.org"
 
-In this version the site only works when running from the www.scdiet.org domain.
+  - In this version the site only works when running from the www.scdiet.org domain.
 
+## SCDArchive version https://github.com/raprasad/scdiet.org/releases/tag/2.0
 
-### SCDArchive version https://github.com/raprasad/scdiet.org/releases/tag/2.0
+  - For this [scdarchive version](https://github.com/raprasad/scdiet.org/releases/tag/2.0), all the links to ```http://www.scdiet.org``` have been changed to ```/scdarchive```
 
-For this [scdarchive version](https://github.com/raprasad/scdiet.org/releases/tag/2.0), all the links to ```http://www.scdiet.org``` have been changed to ```/scdarchive```
-
-This allows the "scdarchive" folder and files to be copied onto an existing web server.
+  - This allows the "scdarchive" folder and files to be copied onto an existing web server.
 
 #### Running the "scdarchive" version locally
 
