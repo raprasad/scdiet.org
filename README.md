@@ -1,5 +1,7 @@
 # scdiet.org
 
+![SCDiet.org homepage](screen-shots/scdiet_org_homepage_sm.png)
+
 Archive of the original SCDiet.org site created by [Mik Aidt](https://twitter.com/mikaidt) and [Mike Simons](http://www.glassbird.com/)
 
 Created to help people using Elaine Gottschall's version of the Specific Carbohydrate Diet (SCD), from 1996 through September 2016, this site lived at ```www.scdiet.org```.
@@ -39,7 +41,7 @@ This allows the "scdarchive" folder and files to be copied onto an existing web 
 
 The homepage of the site:
 
-![SCDiet.org homepage](/screenshots/scdiet_org_homepage.png)
+![SCDiet.org homepage](screen-shots/scdiet_org_homepage.png)
 
 ---
 
