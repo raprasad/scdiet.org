@@ -12,7 +12,7 @@ As described in the site's footer:
 
 This archive contains the static HTML and images from the site.
 
-Please see the versions tab for:
+Please see the [releases tab](https://github.com/raprasad/scdiet.org/releases) for:
 
 ## Original Version https://github.com/raprasad/scdiet.org/releases/tag/1.0
 
