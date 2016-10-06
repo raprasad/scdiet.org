@@ -14,14 +14,14 @@ This archive contains the static HTML and images from the site.
 
 Please see the versions tab for:
 
-### [Original version](https://github.com/raprasad/scdiet.org/releases/tag/1.0)
+## Original Version https://github.com/raprasad/scdiet.org/releases/tag/1.0
 
 In the [original version](https://github.com/raprasad/scdiet.org/releases/tag/1.0) pages are hardcoded with links to "http://www.scdiet.org"
 
 In this version the site only works when running from the www.scdiet.org domain.
 
 
-### ["scdarchive" version](https://github.com/raprasad/scdiet.org/releases/tag/2.0)
+### SCDArchive version https://github.com/raprasad/scdiet.org/releases/tag/2.0
 
 For this [scdarchive version](https://github.com/raprasad/scdiet.org/releases/tag/2.0), all the links to ```http://www.scdiet.org``` have been changed to ```/scdarchive```
 
