@@ -1,3 +1,5 @@
+The original scdiet.org is archived on http://scdarchive.com
+
 # scdiet.org
 
 ![SCDiet.org homepage](screen-shots/scdiet_org_homepage_sm.png)
